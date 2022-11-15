@@ -57,6 +57,9 @@ switch ($case) {
     default:
         include "Controleur/Controleur_visiteur_admin.php";
         break;
+    case "RGPD":
+        include "Controleur/Controleur_RGPD_admin.php";
+        break ;
 }
 
 
